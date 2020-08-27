@@ -1,0 +1,12 @@
+:root {
+  /* Main color scheme */
+  --primary-color: #00838f;
+  --primary-color-text: #ffffff;
+  --light-color: #4fb3bf;
+  --light-color-text: #000000;
+  --dark-color: #005662;
+  --dark-color-text: #ffffff;
+  /* Section background color */
+  --white-section-bg-color: #ffffff;
+  --light-gray-section-bg-color: #eceff1;
+}
