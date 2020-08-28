@@ -1,5 +1,5 @@
 #personal-data {
-  min-height: calc(100vh - 100px);
+  min-height: 100vh;
   height: 100%;
   width: 100%;
   background-color: var(--light-gray-section-bg-color);
