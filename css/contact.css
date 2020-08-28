@@ -1,5 +1,5 @@
 #contact {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 125px);
   height: 100%;
   width: 100%;
   background-color: var(--white-section-bg-color);
