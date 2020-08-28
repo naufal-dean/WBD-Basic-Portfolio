@@ -2,5 +2,5 @@
   min-height: calc(100vh - 100px);
   height: 100%;
   width: 100%;
-  background-color: var(--light-gray-section-bg-color);
+  background-color: var(--white-section-bg-color);
 }

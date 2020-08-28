@@ -1,0 +1,43 @@
+/* Open Sans */
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  src: url("../fonts/open-sans/open-sans-v17-latin-regular.woff2") format("woff2"),
+       url("../fonts/open-sans/open-sans-v17-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  src: url("../fonts/open-sans/open-sans-v17-latin-700.woff2") format("woff2"),
+       url("../fonts/open-sans/open-sans-v17-latin-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 800;
+  src: url("../fonts/open-sans/open-sans-v17-latin-800.woff2") format("woff2"),
+       url("../fonts/open-sans/open-sans-v17-latin-800.woff") format("woff");
+}
+
+/* Roboto Slab */
+@font-face {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  src: url("../fonts/roboto-slab/roboto-slab-v12-latin-regular.woff2") format("woff2"),
+       url("../fonts/roboto-slab/roboto-slab-v12-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  src: url("../fonts/roboto-slab/roboto-slab-v12-latin-700.woff2") format("woff2"),
+       url("../fonts/roboto-slab/roboto-slab-v12-latin-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-weight: 800;
+  src: url("../fonts/roboto-slab/roboto-slab-v12-latin-800.woff2") format("woff2"),
+       url("../fonts/roboto-slab/roboto-slab-v12-latin-800.woff") format("woff");
+}
