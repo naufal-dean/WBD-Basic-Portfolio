@@ -2,5 +2,42 @@
   min-height: 100vh;
   height: 100%;
   width: 100%;
-  background-color: var(--light-gray-section-bg-color);
+  background-color: var(--white-section-bg-color);
+}
+
+#personal-data div.content-left>div, #personal-data div.content-right>div {
+  display: flex;
+  flex-direction: column;
+}
+
+#personal-data div.content-left {
+  border-right: 1.5px solid var(--primary-color);
+}
+
+#personal-data div.content-right {
+  border-left: 1.5px solid var(--primary-color);
+}
+
+#personal-data div.content-left>div {
+  align-items: flex-end;
+}
+
+#personal-data div.content-right>div {
+  align-items: flex-start;
+}
+
+#personal-data div.content-left>div>ul, #personal-data div.content-right>div>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#personal-data div.content-left>div>ul>li, #personal-data div.content-right>div>ul>li {
+  color: var(--deeper-dark-color);
+  line-height: 1.9em;
+}
+
+#personal-data div.content-left>div>ul>li {
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: 700;
 }
