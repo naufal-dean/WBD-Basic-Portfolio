@@ -4,3 +4,39 @@
   width: 100%;
   background-color: var(--light-gray-section-bg-color);
 }
+
+#contact div.section-content>ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact div.section-content>ul>li {
+  margin: 20px;
+}
+
+#contact div.section-content>ul>li>div {
+  background-color: var(--light-color);
+  border-radius: 10%;
+  height: 100px;
+  width: 100px;
+}
+
+#contact div.section-content>ul>li>div>a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#contact div.section-content>ul>li>div>a>img {
+  height: 50%;
+}
+
+#contact div.section-content>ul>li>p {
+  color: var(--deeper-dark-color);
+  text-align: center;
+  text-transform: uppercase;
+}
