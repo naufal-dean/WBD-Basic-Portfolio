@@ -1,6 +1,22 @@
 #footer {
-  min-height: 125px;
-  height: 100%;
+  height: 125px;
   width: 100%;
   background-color: var(--dark-color);
+}
+
+#footer div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+}
+
+#footer div>p {
+  color: var(--dark-color-text);
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+#footer div>p>span {
+  color: var(--light-color);
 }

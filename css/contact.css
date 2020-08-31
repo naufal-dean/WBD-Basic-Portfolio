@@ -5,14 +5,20 @@
   background-color: var(--light-gray-section-bg-color);
 }
 
+#contact div.section-content {
+  margin-bottom: 0;
+  min-height: calc(100vh - 300px);
+  text-align: center;
+}
+
 #contact div.section-content>ul {
-  display: flex;
-  flex-direction: row;
+  display: block;
   list-style-type: none;
   padding: 0;
 }
 
 #contact div.section-content>ul>li {
+  display: inline-block;
   margin: 20px;
 }
 

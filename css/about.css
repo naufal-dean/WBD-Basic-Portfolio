@@ -5,11 +5,22 @@
   background-color: var(--light-gray-section-bg-color);
 }
 
-#about div.content-left>div {
+#about div.section-content {
+  margin-bottom: 125px;
+  min-height: calc(100vh - 300px);
+}
+
+#about div.content-left, #about div.content-right {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  padding: 0 50px 0 150px;
+}
+
+#about div.content-left {
+  justify-content: flex-end;
+}
+
+#about div.content-right {
+  justify-content: flex-start;
 }
 
 #profdesc>p, #profdesc>h2 {
@@ -19,13 +30,18 @@
 #profpic {
   display: flex;
   justify-content: center;
-  height: 200px;
-  width: 200px;
-  margin-bottom: 30px;
+  height: 275px;
+  width: 275px;
   border-radius: 50%;
   overflow: hidden;
+  margin-right: 50px;
 }
 
 #profpic>img {
   height: 100%;
+}
+
+#profdesc {
+  max-width: 400px;
+  margin-left: 50px;
 }

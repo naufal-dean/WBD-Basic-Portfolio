@@ -32,6 +32,8 @@ div.section-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 75px;
+  min-height: calc(100vh - 250px);
 }
 
 div.content-left {
