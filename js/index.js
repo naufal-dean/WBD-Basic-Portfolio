@@ -5,7 +5,7 @@ window.onload = function() {
     const pDataSectionL = document.querySelector("#personal-data div.content-left>div");
     const pDataSectionR = document.querySelector("#personal-data div.content-right>div");
 
-    if (pDataSection.getBoundingClientRect().top <= 300) {
+    if (pDataSection.getBoundingClientRect().top <= 500) {
       pDataSectionL.classList.remove("hidden");
       pDataSectionR.classList.remove("hidden");
     } else if (window.scrollY <= 50) {
@@ -19,7 +19,7 @@ window.onload = function() {
     const aboutSectionL = document.querySelector("#profpic");
     const aboutSectionR = document.querySelector("#profdesc");
 
-    if (aboutSection.getBoundingClientRect().top <= 300) {
+    if (aboutSection.getBoundingClientRect().top <= 500) {
       aboutSectionL.classList.remove("hidden");
       aboutSectionR.classList.remove("hidden");
     } else if (window.scrollY <= 50) {
@@ -32,7 +32,7 @@ window.onload = function() {
     const projectSection = document.querySelector("#project");
     const projectSectionC = document.querySelector("#project-container");
 
-    if (projectSection.getBoundingClientRect().top <= 300) {
+    if (projectSection.getBoundingClientRect().top <= 500) {
       projectSectionC.classList.remove("hidden");
     } else if (window.scrollY <= 50) {
       projectSectionC.classList.add("hidden");
