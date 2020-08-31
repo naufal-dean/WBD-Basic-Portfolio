@@ -45,3 +45,28 @@
   max-width: 400px;
   margin-left: 50px;
 }
+
+@media only screen and (max-width: 800px) {
+  #about div.section-content {
+    flex-wrap: wrap;
+  }
+
+  #about div.content-left, #about div.content-right {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #profpic {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #profpic {
+    height: 175px;
+    min-height: 175px;
+    width: 175px;
+    min-width: 175px;
+  }
+}
