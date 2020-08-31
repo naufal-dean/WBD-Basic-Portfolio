@@ -2,7 +2,7 @@
   min-height: calc(100vh - 125px);
   height: 100%;
   width: 100%;
-  background-color: var(--light-gray-section-bg-color);
+  background-color: var(--white-section-bg-color);
 }
 
 #contact div.section-content {

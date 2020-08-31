@@ -5,7 +5,7 @@ window.onload = function() {
     const pDataSectionL = document.querySelector("#personal-data div.content-left>div");
     const pDataSectionR = document.querySelector("#personal-data div.content-right>div");
 
-    if (pDataSection.getBoundingClientRect().top <= 200) {
+    if (pDataSection.getBoundingClientRect().top <= 300) {
       pDataSectionL.classList.remove("hidden");
       pDataSectionR.classList.remove("hidden");
     } else if (window.scrollY <= 50) {
@@ -19,7 +19,7 @@ window.onload = function() {
     const aboutSectionL = document.querySelector("#profpic");
     const aboutSectionR = document.querySelector("#profdesc");
 
-    if (aboutSection.getBoundingClientRect().top <= 200) {
+    if (aboutSection.getBoundingClientRect().top <= 300) {
       aboutSectionL.classList.remove("hidden");
       aboutSectionR.classList.remove("hidden");
     } else if (window.scrollY <= 50) {
@@ -28,11 +28,24 @@ window.onload = function() {
     }
   };
 
+  const projectScrollHandler = function(event) {
+    const projectSection = document.querySelector("#project");
+    const projectSectionC = document.querySelector("#project-container");
+
+    if (projectSection.getBoundingClientRect().top <= 300) {
+      projectSectionC.classList.remove("hidden");
+    } else if (window.scrollY <= 50) {
+      projectSectionC.classList.add("hidden");
+    }
+  };
+
   // Initial load call
   pDataScrollHandler();
   aboutScrollHandler();
+  projectScrollHandler();
 
   // Register listener
   window.addEventListener("scroll", pDataScrollHandler);
   window.addEventListener("scroll", aboutScrollHandler);
+  window.addEventListener("scroll", projectScrollHandler);
 };
