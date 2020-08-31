@@ -28,17 +28,25 @@
 }
 
 #profpic {
+  border: 7px solid var(--primary-color);
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   height: 275px;
   width: 275px;
-  border-radius: 50%;
   overflow: hidden;
   margin-right: 50px;
 }
 
 #profpic>img {
   height: 100%;
+}
+
+#profpic:hover {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+  -webkit-transition: -webkit-transform 1000ms ease-in-out;
+  transition: transform 1000ms ease-in-out;
 }
 
 #profdesc {
@@ -49,6 +57,7 @@
 @media only screen and (max-width: 800px) {
   #about div.section-content {
     flex-wrap: wrap;
+    margin-bottom: 75px;
   }
 
   #about div.content-left, #about div.content-right {
