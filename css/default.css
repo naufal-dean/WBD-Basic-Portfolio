@@ -41,8 +41,6 @@ div.content-left {
   min-width: calc((100vw - 200px) / 2);
   margin-left: 50px;
   padding-right: 20px;
-  /* debug */
-  /* border: 1px solid #000000; */
 }
 
 div.content-right {
@@ -50,6 +48,4 @@ div.content-right {
   min-width: calc((100vw - 200px) / 2);
   margin-right: 50px;
   padding-left: 20px;
-  /* debug */
-  /* border: 1px solid #000000; */
 }

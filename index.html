@@ -1,141 +1,169 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <!-- Basic setup -->
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/favicon.png" />
+    <!-- Include css and js -->
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js"></script>
+    <!-- Title -->
+    <title>My Basic Portfolio</title>
+  </head>
 
-<head>
-  <!-- Basic setup -->
-  <meta charset="utf-8" />
-  <link rel="icon" href="images/favicon.png" />
-  <!-- Include css and js -->
-  <link rel="stylesheet" href="css/index.css" />
-  <script src="js/index.js"></script>
-  <!-- Title -->
-  <title>My Basic Portfolio</title>
-</head>
-
-<body>
-  <section id="cover">
-    <div>
-      <h1>Hello world, my name is <span>Dean</span>!</h1>
-      <h2>
-        I'm third year student in Informatics Engineering ITB
-      </h2>
-    </div>
-  </section>
-  <section id="about">
-    <div class="section-wrapper">
-      <div class="section-title">
-        <h1>About</h1>
+  <body>
+    <section id="cover">
+      <div>
+        <h1>Hello world, my name is <span>Dean</span>!</h1>
+        <h2>
+          I'm third year student in Informatics Engineering ITB
+        </h2>
       </div>
-      <div class="section-content">
-        <div class="content-left">
-          <div id="profpic">
-            <img src="images/profpic.jpg" alt="profpic" />
-          </div>
+    </section>
+    <section id="about">
+      <div class="section-wrapper">
+        <div class="section-title">
+          <h1>About</h1>
         </div>
-        <div class="content-right">
-          <div id="profdesc">
-            <h2>Who am I?</h2><br>
-            <p>
-              Hello my name is Naufal Dean Anugrah. I am third year student in Informatics Engineering at Institut Teknologi Bandung.<br><br>
-              I am participated in several organizations, such as Himpunan Mahasiswa Teknik Informatika (HMIF) ITB, Unit Robotika (URO), and Amateur Radio Club (ARC).<br><br>
-              Furthermore, I am also active in learning and participating Capture the Flag (CTF) competition.
-            </p>
+        <div class="section-content">
+          <div class="content-left">
+            <div id="profpic" class="hidden">
+              <img src="images/profpic.jpg" alt="profpic" />
+            </div>
+          </div>
+          <div class="content-right">
+            <div id="profdesc" class="hidden">
+              <h2>Who am I?</h2>
+              <br />
+              <p>
+                Hello, my name is Naufal Dean Anugrah. I am third year student
+                in Informatics Engineering at Institut Teknologi Bandung.<br /><br />
+                I am participated in several organizations, such as Himpunan
+                Mahasiswa Informatika (HMIF) ITB, Unit Robotika (URO), and
+                Amateur Radio Club (ARC).<br /><br />
+                Furthermore, I am also active in learning and participating
+                Capture the Flag (CTF) competition.<br /><br />
+                <a href="#contact">Contact me!</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="personal-data">
-    <div class="section-wrapper">
-      <div class="section-title">
-        <h1>Personal Data</h1>
-      </div>
-      <div class="section-content">
-        <div class="content-left">
-          <div class="hidden">
-            <ul>
-              <li>Name</li>
-              <li>NIM</li>
-              <li>Place of Birth</li>
-              <li>Date of Birth</li>
-              <li>Email</li>
-              <li>Phone</li>
-              <li>Major</li>
-              <li>Educations</li>
-            </ul>
+    </section>
+    <section id="personal-data">
+      <div class="section-wrapper">
+        <div class="section-title">
+          <h1>Personal Data</h1>
+        </div>
+        <div class="section-content">
+          <div class="content-left">
+            <div class="hidden">
+              <ul>
+                <li>Name</li>
+                <li>NIM</li>
+                <li>Place of Birth</li>
+                <li>Date of Birth</li>
+                <li>Email</li>
+                <li>Phone</li>
+                <li>Major</li>
+                <li>Educations</li>
+              </ul>
+            </div>
+          </div>
+          <div class="content-right">
+            <div class="hidden">
+              <ul>
+                <li>Naufal Dean Anugrah</li>
+                <li>13518123</li>
+                <li>Sleman</li>
+                <li>January 23th, 2000</li>
+                <li>
+                  <a
+                    href="mailto:naufal.dean@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    naufal.dean@gmail.com
+                  </a>
+                </li>
+                <li>083105314530</li>
+                <li>Informatics Engineering</li>
+                <li>[2006-2012]<br />SD Muhammadiyah Ngijon 1</li>
+                <li>[2012-2015]<br />SMP Negeri 1 Godean</li>
+                <li>[2015-2018]<br />SMA Negeri 1 Yogyakarta</li>
+                <li>
+                  [2018-current]<br />Informatics Engineering, STEI, Institut
+                  Teknologi Bandung
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="content-right">
-          <div class="hidden">
-            <ul>
-              <li>Naufal Dean Anugrah</li>
-              <li>13518123</li>
-              <li>Sleman</li>
-              <li>January 23th, 2000</li>
-              <li>naufal.dean@gmail.com</li>
-              <li>083105314530</li>
-              <li>Informatics Engineering</li>
-              <li>[2006-2012]<br />SD Muhammadiyah Ngijon 1</li>
-              <li>[2012-2015]<br />SMP Negeri 1 Godean</li>
-              <li>[2015-2018]<br />SMA Negeri 1 Yogyakarta</li>
-              <li>
-                [2018-current]<br />Informatics Engineering, STEI, Institut
-                Teknologi Bandung
-              </li>
-            </ul>
-          </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="section-wrapper">
+        <div class="section-title">
+          <h1>Contact</h1>
+        </div>
+        <div class="section-content">
+          <ul>
+            <li>
+              <div>
+                <a
+                  href="https://github.com/naufal-dean"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="images/ic_github.png" alt="github" />
+                </a>
+              </div>
+              <p>Github</p>
+            </li>
+            <li>
+              <div>
+                <a
+                  href="https://gitlab.com/naufal-dean"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="images/ic_gitlab.png" alt="github" />
+                </a>
+              </div>
+              <p>Gitlab</p>
+            </li>
+            <li>
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/naufal-dean/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="images/ic_linkedin.png" alt="github" />
+                </a>
+              </div>
+              <p>Linkedin</p>
+            </li>
+            <li>
+              <div>
+                <a
+                  href="https://www.instagram.com/naufal.dean"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="images/ic_instagram.png" alt="github" />
+                </a>
+              </div>
+              <p>Instagram</p>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="contact">
-    <div class="section-wrapper">
-      <div class="section-title">
-        <h1>Contact</h1>
+    </section>
+    <section id="footer">
+      <div>
+        <p>Naufal Dean Anugrah <span>13518123</span></p>
       </div>
-      <div class="section-content">
-        <ul>
-          <li>
-            <div>
-              <a href="https://github.com/naufal-dean" target="_blank" rel="noopener noreferrer">
-                <img src="images/ic_github.png" alt="github" />
-              </a>
-            </div>
-            <p>Github</p>
-          </li>
-          <li>
-            <div>
-              <a href="https://gitlab.com/naufal-dean" target="_blank" rel="noopener noreferrer">
-                <img src="images/ic_gitlab.png" alt="github" />
-              </a>
-            </div>
-            <p>Gitlab</p>
-          </li>
-          <li>
-            <div>
-              <a href="https://www.linkedin.com/in/naufal-dean/" target="_blank" rel="noopener noreferrer">
-                <img src="images/ic_linkedin.png" alt="github" />
-              </a>
-            </div>
-            <p>Linkedin</p>
-          </li>
-          <li>
-            <div>
-              <a href="https://www.instagram.com/naufal.dean" target="_blank" rel="noopener noreferrer">
-                <img src="images/ic_instagram.png" alt="github" />
-              </a>
-            </div>
-            <p>Instagram</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <section id="footer">
-    <div>
-      <p>Naufal Dean Anugrah <span>13518123</span></p>
-    </div>
-  </section>
-</body>
-
+    </section>
+  </body>
 </html>

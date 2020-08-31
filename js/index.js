@@ -1,21 +1,38 @@
 window.onload = function() {
   // Handler definition
-  const personalDataScrollHandler = function(event) {
-    const personalDataSection = document.querySelector("#personal-data");
-    const personalDataSectionL = document.querySelector("#personal-data div.content-left>div");
-    const personalDataSectionR = document.querySelector("#personal-data div.content-right>div");
+  const pDataScrollHandler = function(event) {
+    const pDataSection = document.querySelector("#personal-data");
+    const pDataSectionL = document.querySelector("#personal-data div.content-left>div");
+    const pDataSectionR = document.querySelector("#personal-data div.content-right>div");
 
-    if (personalDataSection.getBoundingClientRect().top <= 200) {
-      personalDataSectionL.classList.remove("hidden");
-      personalDataSectionR.classList.remove("hidden");
+    if (pDataSection.getBoundingClientRect().top <= 200) {
+      pDataSectionL.classList.remove("hidden");
+      pDataSectionR.classList.remove("hidden");
     } else if (window.scrollY <= 50) {
-      personalDataSectionL.classList.add("hidden");
-      personalDataSectionR.classList.add("hidden");
+      pDataSectionL.classList.add("hidden");
+      pDataSectionR.classList.add("hidden");
     }
   };
+
+  const aboutScrollHandler = function(event) {
+    const aboutSection = document.querySelector("#about");
+    const aboutSectionL = document.querySelector("#profpic");
+    const aboutSectionR = document.querySelector("#profdesc");
+
+    if (aboutSection.getBoundingClientRect().top <= 200) {
+      aboutSectionL.classList.remove("hidden");
+      aboutSectionR.classList.remove("hidden");
+    } else if (window.scrollY <= 50) {
+      aboutSectionL.classList.add("hidden");
+      aboutSectionR.classList.add("hidden");
+    }
+  };
+
   // Initial load call
-  personalDataScrollHandler();
+  pDataScrollHandler();
+  aboutScrollHandler();
 
   // Register listener
-  window.addEventListener("scroll", personalDataScrollHandler);
+  window.addEventListener("scroll", pDataScrollHandler);
+  window.addEventListener("scroll", aboutScrollHandler);
 };
